@@ -13,6 +13,6 @@ $(document).ready(function() {
   
     $('.outline').on('click', function() {
       addRandomColor();
+      $(".btn").toggleClass("anim");
     });
   });
-
